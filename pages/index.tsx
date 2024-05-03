@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-import Board from "@/components/board";
-import Score from "@/components/score";
-import styles from "@/styles/index.module.css";
+// import Board from "@/components/board";
+// import Score from "@/components/score";
+//import styles from "@/styles/index.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.twenty48}>
+    <div>
       <Head>
         <title>Play 2048</title>
         <meta
@@ -25,11 +24,9 @@ export default function Home() {
       </Head>
       <header>
         <h1>2048</h1>
-        <Score />
+        {/* <Score /> */}
       </header>
-      <main>
-        <Board />
-      </main>
+      <main>{/* <Board /> */}</main>
       <div>
         <h2>
           🚀 <span>Learn React 18 & Next.js</span>
@@ -47,27 +44,17 @@ export default function Home() {
         </p>
       </div>
       <footer>
-        <div className={styles.socials}>
+        <div>
           <a
             href="https://github.com/mateuszsokola/2048-in-react"
             target="_blank"
             rel="noopener"
-          >
-            <Image
-              src="social-github.svg"
-              alt="2048-in-react on GitHub"
-              width={32}
-              height={32}
-            />
-          </a>
-          <a href="https://twitter.com/msokola" target="_blank" rel="noopener">
-            <Image
-              src="social-twitter.svg"
-              alt="Matéush on Twitter"
-              width={32}
-              height={32}
-            />
-          </a>
+          ></a>
+          <a
+            href="https://twitter.com/msokola"
+            target="_blank"
+            rel="noopener"
+          ></a>
         </div>
         <div>Made with ❤️ by Matéush</div>
       </footer>
