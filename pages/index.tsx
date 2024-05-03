@@ -32,30 +32,12 @@ export default function Home() {
           🚀 <span>Learn React 18 & Next.js</span>
         </h2>
         <p>
-          Join my{" "}
-          <a
-            href="https://www.udemy.com/course/2048-in-react-and-nextjs/?couponCode=50DISCOUNT"
-            target="_blank"
-            rel="noopener"
-          >
-            Udemy course
-          </a>{" "}
-          and learn React & Next.js by creating your own 2048 game from scratch.
+          Join my and learn React & Next.js by creating your own 2048 game from
+          scratch.
         </p>
       </div>
       <footer>
-        <div>
-          <a
-            href="https://github.com/mateuszsokola/2048-in-react"
-            target="_blank"
-            rel="noopener"
-          ></a>
-          <a
-            href="https://twitter.com/msokola"
-            target="_blank"
-            rel="noopener"
-          ></a>
-        </div>
+        <div></div>
         <div>Made with ❤️ by Matéush</div>
       </footer>
     </div>
