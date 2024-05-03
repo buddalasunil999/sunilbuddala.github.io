@@ -1,11 +1,11 @@
 name: publish-to-github-pages
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - master
-      - release/0.2.x
+    branches: ["main"]
 
-workflow_dispatch:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: read
